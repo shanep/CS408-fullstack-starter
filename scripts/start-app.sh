@@ -23,7 +23,7 @@ fi
 
 git pull origin main
 pushd ..
-npm run ci
+npm ci
 popd
 
 # Now restart the app with PM2 or start it if not already running
